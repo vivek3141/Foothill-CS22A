@@ -1,2 +1,8 @@
 # Foothill-CS22A
-All of the labs from the Foothill College CS22A Course
+This repository contains all the Labs from 
+the JavaScript Foothill CS22A College Course.
+<br />
+<br />
+Please use this for reference ONLY.
+<br /><br />
+https://foothill.edu/
