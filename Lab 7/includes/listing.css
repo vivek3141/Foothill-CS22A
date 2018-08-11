@@ -1,0 +1,81 @@
+
+
+@charset "UTF-8";
+
+body {font-family: Helvetica, Arial, sans-serif; }
+p { margin: 0px; }
+a { color: #bf572c; }
+a:hover { color: #000; }
+
+.house_images {
+	 float:left;
+	}
+	
+.listing_container {
+	margin: 20px 0px 0px 20px;
+	padding: 0px 0px 5px 0px;
+	width: 700px;
+	background: url(../images/corkboard_tile.jpg) 0px 0px;
+}
+
+.listing {
+	margin: 0px 15px 35px 15px;
+	padding: 35px 15px 15px 70px;
+	position: relative;
+	background: #fff url(../images/note_top.jpg) no-repeat 0px 0px;
+}
+
+.listing_address { margin: 0px; padding: 0px 0px 5px 0px; display: inline-block; cursor: help; font-weight: bold; color: #1f4f71; }
+
+.listing_detail_container { height: 0px; overflow: hidden; padding: 0px; color: #bf572c; }
+.listing_detail { margin: 0px; padding: 0px; color: #bf572c; font-weight: normal; }
+
+.listing .house { width: 40px; height: 50px; position: absolute; top: 20px; left: 25px; background: url(../images/house.png) 0px 0px; }
+.listing .glass { width: 43px; height: 40px; position: absolute; top: 42px; left: 23px; background: url(../images/magnifier.png) 0px 0px; display: none;}
+
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+		display: inline-block !important;
+		text-align: left;
+		width: 100%;
+}
+.main-navigation ul {
+		margin: 0;
+		text-indent: 0;
+}
+.main-navigation li a,
+.main-navigation li {
+		display: inline-block;
+		text-decoration: none;
+}
+.main-navigation li a {
+		border-bottom: 0;
+		color: #6a6a6a;
+		line-height: 3.6;
+		text-transform: uppercase;
+		white-space: nowrap;
+}
+.main-navigation li a:hover{
+		color: #000;
+}
+.main-navigation li {
+		margin: 0 30px 0 0;
+		position: relative;
+}
+
+
+
+#hero {
+    height:175px;
+    width:960px;
+}
+#hero div {
+    position:absolute;
+    z-index: 0;
+}
+#hero div.previous {
+    z-index: 1;
+}
+#hero div.current {
+    z-index: 2;
+}
